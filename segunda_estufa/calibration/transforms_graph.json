@@ -1,0 +1,566 @@
+{
+  "directed": true,
+  "graph": {},
+  "links": [
+    {
+      "child": "VLP-16",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "VLP-16_base_scan_joint",
+      "joint_params_calibrated": null,
+      "parent": "VLP-16_base_link",
+      "source": "VLP-16_base_link",
+      "target": "VLP-16",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "left_body_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "left_body_Joint",
+      "joint_params_calibrated": null,
+      "parent": "base_link",
+      "source": "base_link",
+      "target": "left_body_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "right_body_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "right_body_Joint",
+      "joint_params_calibrated": null,
+      "parent": "base_link",
+      "source": "base_link",
+      "target": "right_body_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "oakd_link_color_camera_optical_frame",
+      "from_bag": false,
+      "is_transformation_calibrated": true,
+      "joint_name": "sprayer_body_Joint",
+      "joint_params_calibrated": null,
+      "parent": "base_link",
+      "source": "base_link",
+      "target": "oakd_link_color_camera_optical_frame",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "livox_frame",
+      "from_bag": false,
+      "is_transformation_calibrated": true,
+      "joint_name": "visual_container_Joint",
+      "joint_params_calibrated": null,
+      "parent": "base_link",
+      "source": "base_link",
+      "target": "livox_frame",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "pattern_link",
+      "from_bag": false,
+      "is_transformation_calibrated": true,
+      "joint_name": null,
+      "joint_params_calibrated": null,
+      "parent": "base_link",
+      "source": "base_link",
+      "target": "pattern_link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "BWL_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "BWL_Joint",
+      "joint_params_calibrated": null,
+      "parent": "left_body_Link",
+      "source": "left_body_Link",
+      "target": "BWL_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "FWL_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "FWL_Joint",
+      "joint_params_calibrated": null,
+      "parent": "left_body_Link",
+      "source": "left_body_Link",
+      "target": "FWL_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_Rim_BWL_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_Rim_BWL_Joint",
+      "joint_params_calibrated": null,
+      "parent": "BWL_Link",
+      "source": "BWL_Link",
+      "target": "visual_Rim_BWL_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_Rim_FWL_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_Rim_FWL_Joint",
+      "joint_params_calibrated": null,
+      "parent": "FWL_Link",
+      "source": "FWL_Link",
+      "target": "visual_Rim_FWL_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "BWR_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "BWR_Joint",
+      "joint_params_calibrated": null,
+      "parent": "right_body_Link",
+      "source": "right_body_Link",
+      "target": "BWR_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "FWR_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "FWR_Joint",
+      "joint_params_calibrated": null,
+      "parent": "right_body_Link",
+      "source": "right_body_Link",
+      "target": "FWR_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_Rim_BWR_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_Rim_BWR_Joint",
+      "joint_params_calibrated": null,
+      "parent": "BWR_Link",
+      "source": "BWR_Link",
+      "target": "visual_Rim_BWR_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_Rim_FWR_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_Rim_FWR_Joint",
+      "joint_params_calibrated": null,
+      "parent": "FWR_Link",
+      "source": "FWR_Link",
+      "target": "visual_Rim_FWR_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "sprayer_nozzle_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "sprayer_nozzle_Joint",
+      "joint_params_calibrated": null,
+      "parent": "oakd_link_color_camera_optical_frame",
+      "source": "oakd_link_color_camera_optical_frame",
+      "target": "sprayer_nozzle_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_sprayer_front_body_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_sprayer_front_body_Joint",
+      "joint_params_calibrated": null,
+      "parent": "oakd_link_color_camera_optical_frame",
+      "source": "oakd_link_color_camera_optical_frame",
+      "target": "visual_sprayer_front_body_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_sprayer_back_body_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_sprayer_back_body_Joint",
+      "joint_params_calibrated": null,
+      "parent": "oakd_link_color_camera_optical_frame",
+      "source": "oakd_link_color_camera_optical_frame",
+      "target": "visual_sprayer_back_body_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_sprayer_tower_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_sprayer_tower_Joint",
+      "joint_params_calibrated": null,
+      "parent": "oakd_link_color_camera_optical_frame",
+      "source": "oakd_link_color_camera_optical_frame",
+      "target": "visual_sprayer_tower_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "camera_link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "camera_container_Joint",
+      "joint_params_calibrated": null,
+      "parent": "oakd_link_color_camera_optical_frame",
+      "source": "oakd_link_color_camera_optical_frame",
+      "target": "camera_link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_gps_antenas_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_gps_antenas_Joint",
+      "joint_params_calibrated": null,
+      "parent": "sprayer_nozzle_Link",
+      "source": "sprayer_nozzle_Link",
+      "target": "visual_gps_antenas_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_nozzle_black_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_nozzle_black_joint",
+      "joint_params_calibrated": null,
+      "parent": "sprayer_nozzle_Link",
+      "source": "sprayer_nozzle_Link",
+      "target": "visual_nozzle_black_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_nozzle_parts_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_nozzle_parts_Joint",
+      "joint_params_calibrated": null,
+      "parent": "sprayer_nozzle_Link",
+      "source": "sprayer_nozzle_Link",
+      "target": "visual_nozzle_parts_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_lidar_support_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_lidar_support_Joint",
+      "joint_params_calibrated": null,
+      "parent": "visual_sprayer_front_body_Link",
+      "source": "visual_sprayer_front_body_Link",
+      "target": "visual_lidar_support_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_Lidar_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_Lidar_Joint",
+      "joint_params_calibrated": null,
+      "parent": "visual_lidar_support_Link",
+      "source": "visual_lidar_support_Link",
+      "target": "visual_Lidar_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_green_button_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_green_button_Joint",
+      "joint_params_calibrated": null,
+      "parent": "visual_sprayer_tower_Link",
+      "source": "visual_sprayer_tower_Link",
+      "target": "visual_green_button_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_antenna_support_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_antenna_support_Joint",
+      "joint_params_calibrated": null,
+      "parent": "visual_sprayer_tower_Link",
+      "source": "visual_sprayer_tower_Link",
+      "target": "visual_antenna_support_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_antenna_bullet_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_antenna_bullet_Joint",
+      "joint_params_calibrated": null,
+      "parent": "visual_antenna_support_Link",
+      "source": "visual_antenna_support_Link",
+      "target": "visual_antenna_bullet_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "visual_lid_Link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "visual_lid_Joint",
+      "joint_params_calibrated": null,
+      "parent": "livox_frame",
+      "source": "livox_frame",
+      "target": "visual_lid_Link",
+      "type": "fixed",
+      "weight": 1
+    },
+    {
+      "child": "VLP-16_base_link",
+      "from_bag": false,
+      "is_transformation_calibrated": false,
+      "joint_name": "VLP-16_base_mount_joint",
+      "joint_params_calibrated": null,
+      "parent": "visual_lid_Link",
+      "source": "visual_lid_Link",
+      "target": "VLP-16_base_link",
+      "type": "fixed",
+      "weight": 1
+    }
+  ],
+  "multigraph": false,
+  "nodes": [
+    {
+      "from_bag": false,
+      "id": "VLP-16_base_link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "VLP-16",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "base_link",
+      "is_world": true,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "left_body_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "BWL_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "FWL_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "right_body_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "BWR_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "FWR_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "oakd_link_color_camera_optical_frame",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": "hand_camera"
+    },
+    {
+      "from_bag": false,
+      "id": "sprayer_nozzle_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "visual_Rim_FWR_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "visual_Rim_BWL_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "visual_Rim_FWL_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "visual_Rim_BWR_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "visual_sprayer_front_body_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "visual_lidar_support_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "visual_Lidar_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "visual_sprayer_back_body_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "visual_sprayer_tower_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "visual_green_button_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "visual_antenna_support_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "visual_antenna_bullet_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "camera_link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "livox_frame",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": "lidar"
+    },
+    {
+      "from_bag": false,
+      "id": "visual_lid_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "visual_gps_antenas_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "visual_nozzle_black_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "from_bag": false,
+      "id": "visual_nozzle_parts_Link",
+      "is_world": false,
+      "pattern": null,
+      "sensor_data": null
+    },
+    {
+      "id": "pattern_link",
+      "is_world": false,
+      "pattern": "pattern_1",
+      "sensor_data": null
+    }
+  ]
+}
